@@ -1,0 +1,35 @@
+/* Write your CSS here */
+@media screen and (min-width: 767px) {
+  .container {
+    background-color: #ffc2a0;
+    width: 60vw;
+    padding: 30px;
+  }
+
+  .todoContainer {
+    background-color: white;
+    border-radius: 10px;
+  }
+  .heading {
+    text-align: center;
+    color: #ff8542;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    background-color: #ffc2a0;
+    width: 50vw;
+    padding: 15px;
+  }
+
+  .todoContainer {
+    background-color: white;
+    border-radius: 8px;
+  }
+  .heading {
+    text-align: center;
+    color: #ff8542;
+    font-size: 15px;
+  }
+}
